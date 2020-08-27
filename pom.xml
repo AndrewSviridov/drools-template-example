@@ -17,25 +17,32 @@
 	</properties>
 
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/org.kie/kie-api -->
 		<dependency>
 			<groupId>org.kie</groupId>
 			<artifactId>kie-api</artifactId>
-			<version>${kie.version}</version>
+			<version>7.42.0.Final</version>
 		</dependency>
- 		<dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.drools/drools-decisiontables -->
+		<dependency>
 			<groupId>org.drools</groupId>
 			<artifactId>drools-decisiontables</artifactId>
-			<version>${kie.version}</version>
+			<version>7.42.0.Final</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.drools/drools-compiler -->
 		<dependency>
 			<groupId>org.drools</groupId>
 			<artifactId>drools-compiler</artifactId>
-			<version>${kie.version}</version>
+			<version>7.42.0.Final</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.drools/drools-templates -->
 		<dependency>
 			<groupId>org.drools</groupId>
 			<artifactId>drools-templates</artifactId>
-			<version>${kie.version}</version>
+			<version>7.42.0.Final</version>
 		</dependency>
 		<dependency>
 			<groupId>junit</groupId>
